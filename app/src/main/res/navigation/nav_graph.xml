@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesFragment">
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.ivancoder.elektrainterviewtechnicaltest.ui.fragments.MoviesFragment"
+        android:label="@string/textPopularMoview"
+        tools:layout="@layout/movies_fragment">
+        <action
+            android:id="@+id/action_moviesFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.ivancoder.elektrainterviewtechnicaltest.ui.fragments.MovieFragment"
+        android:label="@string/textMovieInformation"
+        tools:layout="@layout/movie_fragment">
+        <argument
+            android:name="movieItem"
+            app:argType="com.ivancoder.elektrainterviewtechnicaltest.models.Movie" />
+    </fragment>
+</navigation>

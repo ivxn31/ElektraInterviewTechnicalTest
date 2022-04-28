@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ElektraInterviewTechnicalTest</string>
+    <string name="textFilter">Filtros</string>
+    <string name="textNowPlaying">Estrenos Recientes</string>
+    <string name="textMorePopular">Más Populares</string>
+    <string name="textLoadingInformation">Cargando Información\nPor favor espere...</string>
+    <string name="textEmptyData">No hay información disponible</string>
+    <string name="textPopularMoview">Peliculas Populares</string>
+    <string name="textMovieInformation">Información de la Pelicula</string>
+    <string name="textPopularity">Popularidad</string>
+    <string name="textReleaseDate">Fecha de lanzamiento</string>
+    <string name="textVoteAverage">Voto promedio</string>
+    <string name="textVoteCount">Conteo de votos</string>
+    <string name="textOverview">Resumen</string>
+    <string name="textVideosAvailable">Vídeos disponibles de la pelicula/serie</string>
+    <string name="textTryAgain">Volver a intentar</string>
+</resources>
