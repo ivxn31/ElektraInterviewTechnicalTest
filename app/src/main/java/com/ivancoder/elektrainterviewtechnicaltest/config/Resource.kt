@@ -1,6 +1,6 @@
 package com.ivancoder.elektrainterviewtechnicaltest.config
 
-import com.ivancoder.elektrainterviewtechnicaltest.enums.Status
+import com.ivancoder.elektrainterviewtechnicaltest.domain.enums.Status
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?){
     companion object {

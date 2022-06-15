@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElektraInterviewTechnicalTest">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

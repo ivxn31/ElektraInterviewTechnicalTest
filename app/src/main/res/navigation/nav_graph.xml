@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/moviesFragment"
-        android:name="com.ivancoder.elektrainterviewtechnicaltest.ui.fragments.MoviesFragment"
+        android:name="com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.fragments.MoviesFragment"
         android:label="@string/textPopularMoview"
         tools:layout="@layout/movies_fragment">
         <action
@@ -16,11 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/movieFragment"
-        android:name="com.ivancoder.elektrainterviewtechnicaltest.ui.fragments.MovieFragment"
+        android:name="com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.fragments.MovieFragment"
         android:label="@string/textMovieInformation"
         tools:layout="@layout/movie_fragment">
         <argument
             android:name="movieItem"
-            app:argType="com.ivancoder.elektrainterviewtechnicaltest.models.Movie" />
+            app:argType="com.ivancoder.elektrainterviewtechnicaltest.domain.models.Movie" />
     </fragment>
 </navigation>
