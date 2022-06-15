@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.di
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.di
 
 import android.app.Application
 import android.content.Context

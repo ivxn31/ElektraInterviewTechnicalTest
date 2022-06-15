@@ -1,8 +1,8 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.di
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.di
 
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.EndPoints
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.EndPoints
 import com.ivancoder.elektrainterviewtechnicaltest.config.ResponseHandler
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.daos.MovieDao
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.daos.MovieDao
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MovieRepository
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MoviesRepository
 import dagger.Module

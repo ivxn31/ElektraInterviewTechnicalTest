@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.fragments
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.ui.fragments
 
 import android.view.Menu
 import android.view.MenuInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.ivancoder.elektrainterviewtechnicaltest.databinding.MoviesFragmentBinding
 import com.ivancoder.elektrainterviewtechnicaltest.tools.MVVMFragment
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels.MoviesViewModel
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels.MoviesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
 import com.ivancoder.elektrainterviewtechnicaltest.R

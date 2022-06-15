@@ -1,9 +1,9 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.di
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.di
 
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MovieRepository
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MoviesRepository
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels.MovieViewModel
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels.MoviesViewModel
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels.MovieViewModel
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels.MoviesViewModel
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

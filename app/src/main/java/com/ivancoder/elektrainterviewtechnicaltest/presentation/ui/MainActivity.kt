@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.ui
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.ui
 
 import android.view.LayoutInflater
 import android.view.MenuItem

@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.fragments
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.ui.fragments
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,10 +11,10 @@ import com.ivancoder.elektrainterviewtechnicaltest.config.picassoLoadImageUrl
 import com.ivancoder.elektrainterviewtechnicaltest.config.toDate
 import com.ivancoder.elektrainterviewtechnicaltest.databinding.MovieFragmentBinding
 import com.ivancoder.elektrainterviewtechnicaltest.domain.models.Movie
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.VideoMovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.VideoMovieResponse
 import com.ivancoder.elektrainterviewtechnicaltest.tools.VBFragment
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.customs.VideoPager
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels.MovieViewModel
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.ui.customs.VideoPager
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels.MovieViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

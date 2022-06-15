@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.ui.customs
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.ui.customs
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.VideoMovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.VideoMovieResponse
 import com.ivancoder.elektrainterviewtechnicaltest.R
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener

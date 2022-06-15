@@ -1,9 +1,9 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.di
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.di
 
 import com.ivancoder.elektrainterviewtechnicaltest.BuildConfig
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.ApiKeyInterceptor
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.ApiKeyInterceptor
 import com.ivancoder.elektrainterviewtechnicaltest.config.Consts
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.EndPoints
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.EndPoints
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import dagger.Module
 import dagger.Provides

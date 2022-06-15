@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses
 
 data class VideoMovieResponse(
     val iso_639_1:String,

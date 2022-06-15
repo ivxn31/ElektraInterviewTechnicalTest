@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.daos.MovieDao
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.entities.MovieEntity
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.daos.MovieDao
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.entities.MovieEntity
 
 @Database(
     entities = [

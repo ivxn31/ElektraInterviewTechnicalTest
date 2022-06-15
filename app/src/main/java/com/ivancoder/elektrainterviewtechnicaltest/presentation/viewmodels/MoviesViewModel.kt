@@ -1,9 +1,9 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels
 
 import androidx.lifecycle.viewModelScope
 import com.ivancoder.elektrainterviewtechnicaltest.domain.models.Movie
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MoviesRepository
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.MovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.MovieResponse
 import com.ivancoder.elektrainterviewtechnicaltest.tools.ItemClick
 import com.ivancoder.elektrainterviewtechnicaltest.tools.MVVMList
 import com.ivancoder.elektrainterviewtechnicaltest.tools.MVVMRecycler

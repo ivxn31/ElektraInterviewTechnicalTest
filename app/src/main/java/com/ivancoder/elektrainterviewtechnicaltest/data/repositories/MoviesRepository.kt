@@ -1,12 +1,12 @@
 package com.ivancoder.elektrainterviewtechnicaltest.data.repositories
 
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.EndPoints
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.EndPoints
 import com.ivancoder.elektrainterviewtechnicaltest.config.Resource
 import com.ivancoder.elektrainterviewtechnicaltest.config.ResponseHandler
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.daos.MovieDao
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.entities.MovieEntity
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.daos.MovieDao
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.entities.MovieEntity
 import com.ivancoder.elektrainterviewtechnicaltest.domain.enums.TypeFilterMovie
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.MoviesResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.MoviesResponse
 import javax.inject.Inject
 
 class MoviesRepository @Inject constructor(private val endPoints: EndPoints,

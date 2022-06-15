@@ -1,8 +1,8 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.network
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.network
 
 import com.ivancoder.elektrainterviewtechnicaltest.config.Consts
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.MovieResponse
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.MoviesResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.MovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.MoviesResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

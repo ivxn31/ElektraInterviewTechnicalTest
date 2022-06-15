@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.network
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.network
 
 import com.ivancoder.elektrainterviewtechnicaltest.config.Consts
 import okhttp3.HttpUrl

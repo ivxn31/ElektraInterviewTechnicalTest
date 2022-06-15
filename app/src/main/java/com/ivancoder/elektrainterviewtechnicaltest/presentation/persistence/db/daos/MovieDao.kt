@@ -1,10 +1,10 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.daos
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.daos
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.entities.MovieEntity
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.entities.MovieEntity
 
 @Dao
 interface MovieDao {

@@ -1,4 +1,4 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses
 
 import com.google.gson.annotations.SerializedName
 

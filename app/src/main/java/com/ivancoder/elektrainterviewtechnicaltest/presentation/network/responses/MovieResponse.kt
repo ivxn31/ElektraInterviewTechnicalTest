@@ -1,7 +1,7 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses
 
 import com.google.gson.annotations.SerializedName
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.persistence.db.entities.MovieEntity
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.persistence.db.entities.MovieEntity
 
 data class MovieResponse(
     val id:Int,

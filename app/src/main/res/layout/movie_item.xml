@@ -7,7 +7,7 @@
             type="Integer"/>
         <variable
             name="vm"
-            type="com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels.MoviesViewModel" />
+            type="com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels.MoviesViewModel" />
     </data>
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/_90sdp"

@@ -1,9 +1,9 @@
-package com.ivancoder.elektrainterviewtechnicaltest.presenter.viewmodels
+package com.ivancoder.elektrainterviewtechnicaltest.presentation.viewmodels
 
 import androidx.lifecycle.viewModelScope
 import com.ivancoder.elektrainterviewtechnicaltest.domain.enums.Status
 import com.ivancoder.elektrainterviewtechnicaltest.data.repositories.MovieRepository
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.VideoMovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.VideoMovieResponse
 import com.ivancoder.elektrainterviewtechnicaltest.tools.ToolViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch

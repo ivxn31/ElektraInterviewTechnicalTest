@@ -1,9 +1,9 @@
 package com.ivancoder.elektrainterviewtechnicaltest.data.repositories
 
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.EndPoints
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.EndPoints
 import com.ivancoder.elektrainterviewtechnicaltest.config.Resource
 import com.ivancoder.elektrainterviewtechnicaltest.config.ResponseHandler
-import com.ivancoder.elektrainterviewtechnicaltest.presenter.network.responses.VideoMovieResponse
+import com.ivancoder.elektrainterviewtechnicaltest.presentation.network.responses.VideoMovieResponse
 import javax.inject.Inject
 
 class MovieRepository @Inject constructor(private val endPoints: EndPoints,
